@@ -1,0 +1,103 @@
+body {
+  margin: auto;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+#container {
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 100%;
+  width: 50%;
+}
+/* Topbar Redbar */
+#topbar {
+  background-color: red;
+  height: 50px;
+  width: 100%;
+}
+
+#to_do_list_container {
+  width: 85%;
+}
+
+#welcome {
+  text-align: center;
+}
+
+#Signinform {
+  padding-bottom: 30px;
+}
+/* To do lisää lomake */
+#todo_add_form {
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+#input_field {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+#toDoNext {
+  width: 280px;
+  padding-left: 5px;
+}
+/* To do items */
+#ToDoItem {
+  margin-bottom: 10px;
+  padding: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 1px solid;
+}
+
+#button {
+  float: right;
+  right: 20px;
+  text-align: center;
+  padding: 0px;
+
+}
+
+#buttonI {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+  width: 60px;
+  height: 25px;
+  border: 1px solid;
+  border-radius: 15%;
+}
+
+#buttonI:hover {
+  background-color: white;
+}
+
+/* +- buttonit */
+#action_btn {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  float: right;
+}
+
+#btn {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  border: 0px;
+  border-radius: 50%;
+}
+
+#btn:hover {
+  background-color: black;
+}
+
+#row {
+  padding-top: 20px;
+}
