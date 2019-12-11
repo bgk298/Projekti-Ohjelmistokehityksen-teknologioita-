@@ -44,7 +44,7 @@ class Login extends React.Component {
     }
   }
 
-  // SignIn function (That is has username and password passed in)
+  // SignIn function (has username and password passed in)
   signIn(username, password) {
     this.setState({
       user: {
@@ -56,14 +56,14 @@ class Login extends React.Component {
 
   //SignOut function
   signOut() {
-    // clear out user from state
+    // clears out user from state
     this.setState({
       user: null
     })
   }
 
   render() {
-    // Return div's & h1 to html
+    // Return welcome/loggedin page to html
     return (
     <div id="to_do_list_container">
         <h1 id="welcome"> Todolist </h1> {(this.state.user) ? <Welcome user = {this.state.user} onSignOut = {this.signOut.bind(this)}/> : <LoginForm onSignIn={this.signIn.bind(this)}/>}
