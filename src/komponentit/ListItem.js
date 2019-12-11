@@ -24,5 +24,5 @@ class ListItem extends Component {
         );
     }
 }
-//Export module
+//Export redux connect module
 export default connect(null, {completeToDo})(ListItem);

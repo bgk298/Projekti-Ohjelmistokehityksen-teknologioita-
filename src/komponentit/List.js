@@ -92,5 +92,5 @@ class List extends Component {
       data
     }
   }
-  //Ecports connect modules
+  //Exports redux connect module
   export default connect(mapStateToProps, actions)(List);
